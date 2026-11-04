@@ -146,16 +146,68 @@ body.home img {
 /* Style 6 - Formatting the video player */ 
 body.home iframe {
   width: 80%;
-  height: auto;
+  aspect-ratio: 16 / 9;
   display: block;
   margin: 20px auto;
   border: 4px solid #333;
+  border-radius: 8px; 
 }
+
 /* Style 7 - Making the letters/paragraphs more readable */
 body.home p {
   line-height: 1.6;
   max-width: 75%;
   margin: 0 auto 20px auto;
+}
+
+
+
+
+
+/* CODE FOR STYLING hobbies.html */
+/* Style 1 — Soft background*/
+body.hobbies {
+  background-color: #83e5fe52;
+}
+
+/* Style 2 — Section headers */
+body.hobbies h1 {
+  color: #b59319; 
+  text-transform: uppercase;
+  margin-top: 30px;
+  text-align: center;
+}
+body.hobbies h2 {
+  color: #b59319; 
+  text-transform: uppercase;
+  margin-top: 30px;
+  text-align: center;
+}
+/* Style 3 — Main images */
+body.hobbies img {
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.3);
+  display: block;
+  margin: 20px auto;
+  width: 60%;
+  max-width: 500px;
+}
+/* Style 4 — Table images not overriding previous formatitng*/
+body.hobbies table img {
+  display: block;
+  margin: 0 auto;
+}
+/* Style 5 — Paragraph readability */
+body.hobbies p {
+  max-width: 80%;
+  margin: 0 auto 20px auto;
+  line-height: 1.6;
+  text-align: center;
+}
+/* Style 6 - Hovering over images making them pop */
+body.hobbies img:hover {
+  transform: scale(1.03);
+  transition: 0.3s ease;
 }
 
 
