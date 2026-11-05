@@ -9,6 +9,7 @@ nav {
   width: 100%;
   background-color: #333;
   text-align: center;
+  padding: 8px 0;
 }
 nav ul {
   list-style: none; /* Required: one declaration for all pages */
@@ -24,7 +25,7 @@ nav ul li {
 nav ul li a {
   display: block;
   color: white;
-  padding: 14px 16px;
+  padding: 10px 14px;
   text-decoration: none;
   font-size: 1.2rem;
 }
@@ -49,7 +50,12 @@ body.resume {
 body.resume nav {
   width: 100vw; /* full viewport width */
   margin-left: calc(50% - 50vw); /* re-center it */
+  padding: 6px 0;
 }
+body.resume nav ul li a {
+  padding: 8px 12px;
+}
+
 /* Style 2 - Adding a wooden desk surface as background of the content */
 body.resume {
   background-image: url('images/desk.jpg');
